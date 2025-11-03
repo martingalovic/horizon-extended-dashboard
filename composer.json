@@ -15,15 +15,9 @@
             "role":"Developer"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@github.com:r0bbie/livewire-charts.git"
-        }
-    ],
     "require":{
         "php": "^8.0",
-        "r0bbie/livewire-charts": "dev-master",
+        "arukompas/livewire-charts": "^3.2.0",
         "ext-posix": "*",
         "ext-pcntl": "*"
     },
