@@ -1,8 +1,13 @@
 {
-    "name": "vincentbean/horizon-extended-dashboard",
+    "name": "r0bbie/horizon-extended-dashboard",
     "description":"",
     "license":"MIT",
     "authors":[
+        {
+            "name":"Robbie Cargill",
+            "homepage":"https://r0bbie.com",
+            "role":"Developer"
+        },
         {
             "name":"Vincent Boon",
             "email":"info@vincentbean.com",
@@ -10,9 +15,15 @@
             "role":"Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:r0bbie/livewire-charts.git"
+        }
+    ],
     "require":{
         "php": "^8.0",
-        "asantibanez/livewire-charts": "^3.0.1",
+        "r0bbie/livewire-charts": "dev-master",
         "ext-posix": "*",
         "ext-pcntl": "*"
     },
